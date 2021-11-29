@@ -1,0 +1,48 @@
+.d-flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.f-row{
+    flex-direction: row;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-grow{
+    flex-grow: 4;
+}
+.just-center{
+    justify-content: center;
+}
+.just-between{
+    justify-content: space-between;
+}
+.just-end{
+    justify-content: end;
+}
+.ali-center{
+    align-items: center;
+}
+.ali-end{
+    align-items: flex-end;
+}
+.d-none{
+    display: none;
+}
+
+/* **** Main elements classes ***** */
+
+.container{
+    width:400px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    padding: 0px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+h1 {margin-top: 140px;}
